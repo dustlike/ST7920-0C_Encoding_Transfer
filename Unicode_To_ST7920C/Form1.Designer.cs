@@ -59,6 +59,7 @@
             this.tbxOutput.Name = "tbxOutput";
             this.tbxOutput.Size = new System.Drawing.Size(458, 270);
             this.tbxOutput.TabIndex = 1;
+            this.tbxOutput.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tbxOutput_MouseClick);
             // 
             // statusStrip1
             // 
@@ -82,22 +83,22 @@
             this.rdbStringStyle.Checked = true;
             this.rdbStringStyle.Location = new System.Drawing.Point(25, 64);
             this.rdbStringStyle.Name = "rdbStringStyle";
-            this.rdbStringStyle.Size = new System.Drawing.Size(47, 16);
+            this.rdbStringStyle.Size = new System.Drawing.Size(59, 16);
             this.rdbStringStyle.TabIndex = 3;
             this.rdbStringStyle.TabStop = true;
-            this.rdbStringStyle.Text = "字串";
+            this.rdbStringStyle.Text = "字串用";
             this.rdbStringStyle.UseVisualStyleBackColor = true;
             this.rdbStringStyle.CheckedChanged += new System.EventHandler(this.tbxInput_TextChanged);
             // 
             // rdbArrayStyle
             // 
             this.rdbArrayStyle.AutoSize = true;
-            this.rdbArrayStyle.Location = new System.Drawing.Point(87, 64);
+            this.rdbArrayStyle.Location = new System.Drawing.Point(105, 64);
             this.rdbArrayStyle.Name = "rdbArrayStyle";
-            this.rdbArrayStyle.Size = new System.Drawing.Size(47, 16);
+            this.rdbArrayStyle.Size = new System.Drawing.Size(59, 16);
             this.rdbArrayStyle.TabIndex = 4;
             this.rdbArrayStyle.TabStop = true;
-            this.rdbArrayStyle.Text = "陣列";
+            this.rdbArrayStyle.Text = "陣列用";
             this.rdbArrayStyle.UseVisualStyleBackColor = true;
             this.rdbArrayStyle.CheckedChanged += new System.EventHandler(this.tbxInput_TextChanged);
             // 
